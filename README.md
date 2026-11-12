@@ -10,5 +10,5 @@ I have received permission from the owner of Charlotte's Soapy Pups to publish t
 
 ```bash
 npm install
-npm run dev # Start the local dev server to try this website out
+npx vite # Start the local server to try this website out
 ```
