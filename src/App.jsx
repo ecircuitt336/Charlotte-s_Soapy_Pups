@@ -1,8 +1,12 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+
 export default function App() {
   return (
-    <div>
-      <h1>Charlotte's Soapy Pups</h1>
-      <p>Welcome to our dog grooming salon!</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
