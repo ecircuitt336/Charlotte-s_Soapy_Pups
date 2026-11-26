@@ -8,6 +8,8 @@
   --color-rose-50: #fdf3f6;
   --color-rose-700: #8c2952;
   --color-rose-900: #4a1730;
+
+    --color-gold-600: #b08c4f;
 }
 
 @layer base {
